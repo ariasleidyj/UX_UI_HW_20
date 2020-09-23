@@ -1,0 +1,178 @@
+/* General */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    padding: 15px; 
+  }
+  
+  .logo { 
+  width: 21%; 
+  padding: 1%; 
+  }
+.customNav {
+    position: fixed;
+    width: 100%;
+    background: url("../images/transparency.png");
+    background-color: transparent !important;
+    background-size: cover;
+    z-index: 10; /* layering */ 
+  }
+  
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  .navbar-brand img {
+    padding-right: 15px;
+    width: 65px;
+  }
+  .nav-item {
+    margin: 0px 15px;
+  }
+  
+  /* This is the navigation dropdown menu */
+  .dropdown-menu {
+    background: url("../images/dcMetroBackround.jpg");
+    background-color: transparent !important;
+    background-size: cover;
+  }
+  .dropdown-item:focus, .dropdown-item:hover {
+      color: #16181b;
+      text-decoration: none;
+      background: black;
+  }
+  
+  /* Navigation links */
+  .customNav a {
+    color: white !important;
+  }
+  .navCTA {
+    font-size: 15px;
+  }
+  
+  /* Jumbotron */
+.metroBackground {
+    background-image: url(../images/dcMetroBackround.jpg);  
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Jumbotron copy */
+  .jumboCopy {
+    width: 75%;
+    min-width: 500px;
+    max-width: 700px;
+    color: red;
+    text-align: center;
+  }
+
+  /* Footer CSS */
+footer { 
+    background-color: #ffffff; 
+    padding: 20px; 
+    
+    }
+    .footerUl{ 
+    display:inline-block; 
+    vertical-align: top; 
+    }
+  
+  /* Cards style */
+  .content {
+    padding: 50px;
+    grid-template-rows: 300px 300px 300px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "picture picture picture"
+  }
+  .sectionHeading {
+    text-align: center;
+  }
+  .showsNear  {
+    padding: 0px 30px 30px 30px;
+  }
+
+  #pictures{
+    width: 530px;
+    height: 430px;
+    padding: 3px;
+  }
+  .cardContainer {
+    text-align: center;
+    display: flex; 
+    width: 33% 33% 33%; 
+    height: 40px; 
+    margin: 1px; 
+    margin-left: black;
+    margin-right: black; 
+    padding: 2px; 
+    flex-direction: row; 
+  }
+  
+  /* Content */
+  .sideAccent {
+    background: #007bff;
+    width: 15px;
+  }
+  .imageContainer img {
+    width: 100%;
+  }
+  .imageContainer {
+    padding: 50px;
+  }
+  .valueProp {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  /* STYLES FOR TEMPLATE */
+  .dropdown-menu {
+    left: -97px;
+  }
+ 
+  .cardContainer {
+    margin-top: 20px;
+  }
+  .card {
+    margin: 0 auto;
+    height: 40px; 
+  }
+
+  .left, .center, .right {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .left, .right {
+    width: 25%;
+    }
+    .center {
+    width: 50%;
+    }
+    
+    .inline-blockandlogo{ 
+    display: flex;
+    padding: 20px;
+    }
+    
+    .inline-block{ 
+    background-color: #ffffff; 
+    overflow: hidden; 
+    color: black; 
+    }
+    
+    .inline-block li{ 
+    float:left; 
+    display: block; 
+    color: black; 
+    text-align: center; 
+    padding: 14px 16px; 
+    text-decoration:none; 
+    font-size: 17px; 
+    }

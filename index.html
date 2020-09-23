@@ -1,0 +1,144 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <title>UX/UI Homework 20</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- CSS link tag-->
+    <link rel="stylesheet" href="css/index.css" type="text/css">
+
+</head>
+<body> 
+
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light customNav">
+        <a class="navbar-brand" href="#"><img id="left" src="images/logo.PNG">DC Metro Application Case Study</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- 
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Venues <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Artists</a>
+            </li>
+
+            -->
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Case Study Sections</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                <a class="dropdown-item" href="#">Background</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Research</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Design Phase</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Testing</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Final UI Design</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Final Thoughts</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      
+       
+      <!-- Jumbotron -->
+      <div class="jumbotron metroBackground"> <!-- multiple class names -->
+        <div class="jumboCopy">
+          <h1 class="display-4">Improving Your Metro Experience: A Case Study</h1>
+          <p class="lead">Managing your metro account has improved</p>
+        </div>
+      </div>
+      <!-- End jumbotron -->
+
+
+    <!-- Style all Cards -->
+    <div class="container-fluid content"> <!-- added the content class to the container-fluid div-->
+      <h2 class="sectionHeading">Background</h2>
+      <div class="row showsNear">
+
+        <!-- Card 1 -->
+        <div class="cardContainer col-lg-4 col-md-4 col-sm-12"> <!-- this updates the sizing for this cardContainer-->
+          <div class="card" id="pictures">
+            <img src="images/mockDrop_iPhoneOne.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">How we started</h5>
+              <p class="card-text">Our team was given three weeks to brainstorm, design, and execute a solution aimed at solving a real human problem that will help improve our daily lives.</p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Card 2 -->
+        <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+          <div class="card" id="pictures">
+            <img src="images/mockDrop_Smartphone in right hand.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">The Problem</h5>
+              <p class="card-text">The DC Metro system has long been outdated and frustrating to use. Currently, there is no way to manage your Metro information through a mobile device. And now, due to the recent outbreak of COVID-19, residents of the DMV area are even more cautious, reluctant, and anxious about their future use of the DC Metro. 
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- End card 2 -->
+
+        <!-- Card 3 -->
+        <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+          <div class="card" id="pictures">
+            <img src="images/mockDrop_atWork.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">The Solution</h5>
+              <p class="card-text">We believe introducing a way for Metro riders to have easy access to their SmarTrip® information and accurate Metro rail/bus times will provide more contactless options and allow them to quickly, efficiently, and safely get to their destination.
+                </p>
+            </div>
+          </div>
+        </div>
+        <!-- End card 3 -->
+      </div>
+    </div>
+    <!-- End cards -->
+
+
+      <H2>Proto Persona</H2> 
+      <div class=research>
+      <img src="images/UserPersona .png">
+
+      <H2>User Pain Points</H2> 
+      <h3>
+      <ol class="UserPainPoints">
+        <li>Having to go online or us fare vending machine to check SmarTrip card balance</li>
+        <li>Stressing about having to add value to card before getting on the train</li> 
+        <li>Metro website can be confusing and not user friendly</li>
+        <li>Lack of service breakdown communication</li>
+        <li>General Safety</li>
+      </ol>
+    </h3>
+     </div>
+
+  
+<footer> 
+  <ul class=footerUl>
+      <img class="logo" id="left" src="images/logo.PNG">
+      <li class="inline-block w3-hover-opacity ">About</li>
+      <li class="inline-block w3-hover-opacity">My Process</li>
+      <li class="inline-block w3-hover-opacity">Work</li>
+      <li class="inline-block w3-hover-opacity">Contact</li>
+      <li class="fa fa-linkedin w3-hover-opacity"></li>
+  </ul>
+</footer>  
+
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</html>

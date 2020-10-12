@@ -39,6 +39,10 @@ footer {
   display:inline-block; 
   vertical-align: top; 
   }
+
+  .a {
+    color: white; 
+  }
   
   .inline-block{ 
   vertical-align: top;
@@ -54,7 +58,7 @@ footer {
   padding: 15px; 
   }
 
-  
+
 .customNav {
     position: fixed;
     width: 100%;

@@ -18,17 +18,6 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <!-- 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Venues <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Artists</a>
-            </li>
-
-            -->
 
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Case Study Sections</a>
@@ -61,6 +50,9 @@
       </div>
       <!-- End jumbotron -->
 
+      <section>
+        <img class="topPicture" src="images/DCMetroAppFinal.png" >
+      </section>
 
     <!-- Style all Cards -->
     <div class="container-fluid content"> <!-- added the content class to the container-fluid div-->
@@ -106,36 +98,130 @@
         <!-- End card 3 -->
       </div>
     </div>
-    <!-- End cards -->
-
-
-      <H2>Proto Persona</H2> 
-      <div class=research>
-      <img src="images/UserPersona .png">
-
-      <H2>User Pain Points</H2> 
-      <h3>
-      <ol class="UserPainPoints">
-        <li>Having to go online or us fare vending machine to check SmarTrip card balance</li>
-        <li>Stressing about having to add value to card before getting on the train</li> 
-        <li>Metro website can be confusing and not user friendly</li>
-        <li>Lack of service breakdown communication</li>
-        <li>General Safety</li>
-      </ol>
-    </h3>
-     </div>
-
   
-<footer> 
-  <ul class=footerUl>
-      <img class="logo" id="left" src="images/logo.PNG">
-      <li class="inline-block w3-hover-opacity ">About</li>
-      <li class="inline-block w3-hover-opacity">My Process</li>
-      <li class="inline-block w3-hover-opacity">Work</li>
-      <li class="inline-block w3-hover-opacity">Contact</li>
-      <li class="fa fa-linkedin w3-hover-opacity"></li>
-  </ul>
-</footer>  
+  </br>
+
+    <h2 class="sectionHeading">Research</h2>
+
+        <!-- Card 4-->
+        <div id="personaContainer" class="cardContainer col-lg-8 col-md-8 col-sm-8"> <!-- this updates the sizing for this cardContainer-->
+          <div class="card" id="pictures">
+            <img src="images/UserPersona .png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Metro Riders' Pain Points</h5>
+              <p class="card-text">
+                <ol>
+                <li>Having to go online or us fare vending machine to check SmarTrip card balance</li>
+                <li>Stressing about having to add value to card before getting on the train</li> 
+                <li>Metro website can be confusing and not user friendly</li>
+                <li>Lack of service breakdown communication</li>
+                <li>General Safety</li> 
+              </ol>
+              </div>
+          </div>
+        </div>
+      </br>
+      
+      <h2 class="sectionHeading">Wireframes and Usibility Testing </h2>
+<h4>Testing Insights: </h4>
+<h5> Users need a way to add value to their metro card.
+  Users want to be able to report a damaged card and transfer the balnce to another card. </h5>
+
+  <h3>Mid-Fidelity</h3>
+  <div class="row">
+    <div class="column">
+    <img src="images/Home v3.png" >
+    </div>
+    <div class="column">
+    <img src="images/Home_MyStations.png" >
+    </div>
+    <div class="column">
+      <img src="images/Station_v2.png" style="width=100%" >
+      </div>
+    </div>
+  </br>
+
+    <h3>Hi-Fidelity</h3>
+    <div class="row">
+      <div class="column">
+      <img src="images/HomeMetroScreen.png" >
+      </div>
+    </br> 
+
+
+
+<section>
+      <h2 class="sectionHeading"> Final Thoughts and Lessons Learned </h2>
+
+      <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Future Development
+              </button>
+            </h2>
+          </div>
+      
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+              1. Management of SmartBenefits® account 
+              2. Live train/bus tracking (rider can see exact location of train/bus)
+              3. Include metro discounts on app, allowing riders to get discounts for their loyalty to DC Metro
+              4. Allow Metro riders to use cellular device instead of SmarTrip card as their pass on metro trains and buses
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Trust The Process 
+              </button>
+            </h2>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+              It is essential to stick to the plan set out in the beginning. Often times it can be tempting to get ahead of ourselves and think about all the features we want instead of talking to users. It’s important to not let our biases influence our design process. 
+
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Anticipate Unforeseen Changes 
+              </button>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+              Never assume your plan is finite or set in stone. We went in thinking that we could focus on one aspect of the product, but after talking with our users, we quickly realized that we were neglecting half the problem by doing so. Being flexible and ready for changes allowed us to adapt our plan and build a much better product than initially imagined.
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </section>  
+    
+  </br>
+ 
+    <footer> 
+      <ul class=footerUl>
+          <img class="logo" id="left" src="images/logo.PNG">
+          <li class="inline-block w3-hover-opacity ">About</li>
+          <li class="inline-block w3-hover-opacity">My Process</li>
+          <li class="inline-block w3-hover-opacity">Work</li>
+          <li class="inline-block w3-hover-opacity">Contact</li>
+          <li class="fa fa-linkedin w3-hover-opacity"></li>
+      </ul>
+</footer>
+
+
+
+
 
 </body>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
